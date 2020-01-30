@@ -1,1 +1,82 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.header {
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-animation: changeBackground 10s ease-in infinite;
+          animation: changeBackground 10s ease-in infinite;
+}
+
+@-webkit-keyframes changeBackground {
+  0%,
+  100% {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 20, 20, 0.5)), to(rgba(150, 150, 150, 0.5))), url(css/images/toronto-skyline.jpeg);
+    background-image: linear-gradient(to bottom, rgba(180, 20, 20, 0.5), rgba(150, 150, 150, 0.5)), url(css/images/toronto-skyline.jpeg);
+  }
+  20% {
+  }
+  30% {
+  }
+  33% {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 20, 20, 0.5)), to(rgba(150, 150, 150, 0.5))), url(css/images/toronto-night.jpg);
+    background-image: linear-gradient(to bottom, rgba(180, 20, 20, 0.5), rgba(150, 150, 150, 0.5)), url(css/images/toronto-night.jpg);
+  }
+  50% {
+    opacity: 50%;
+  }
+  60% {
+    opacity: 20%;
+  }
+  66% {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 20, 20, 0.5)), to(rgba(150, 150, 150, 0.5))), url(css/images/toronto-above.jpeg);
+    background-image: linear-gradient(to bottom, rgba(180, 20, 20, 0.5), rgba(150, 150, 150, 0.5)), url(css/images/toronto-above.jpeg);
+  }
+  80% {
+    opacity: 50%;
+  }
+  90% {
+    opacity: 20%;
+  }
+}
+
+@keyframes changeBackground {
+  0%,
+  100% {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 20, 20, 0.5)), to(rgba(150, 150, 150, 0.5))), url(css/images/toronto-skyline.jpeg);
+    background-image: linear-gradient(to bottom, rgba(180, 20, 20, 0.5), rgba(150, 150, 150, 0.5)), url(css/images/toronto-skyline.jpeg);
+  }
+  20% {
+  }
+  30% {
+  }
+  33% {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 20, 20, 0.5)), to(rgba(150, 150, 150, 0.5))), url(css/images/toronto-night.jpg);
+    background-image: linear-gradient(to bottom, rgba(180, 20, 20, 0.5), rgba(150, 150, 150, 0.5)), url(css/images/toronto-night.jpg);
+  }
+  50% {
+    opacity: 50%;
+  }
+  60% {
+    opacity: 20%;
+  }
+  66% {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 20, 20, 0.5)), to(rgba(150, 150, 150, 0.5))), url(css/images/toronto-above.jpeg);
+    background-image: linear-gradient(to bottom, rgba(180, 20, 20, 0.5), rgba(150, 150, 150, 0.5)), url(css/images/toronto-above.jpeg);
+  }
+  80% {
+    opacity: 50%;
+  }
+  90% {
+    opacity: 20%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

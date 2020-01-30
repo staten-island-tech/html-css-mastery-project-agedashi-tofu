@@ -1,3 +1,62 @@
-@import "./variables";
+//@import "./variables";
 @import "./header";
 
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.header {
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: changeBackground 10s ease-in infinite;
+}
+
+//@keyframes changeBackground {
+    0%,
+    100% {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(180, 20, 20, 0.5),
+          rgba(150, 150, 150, 0.5)
+        ),
+        url(css/images/toronto-skyline.jpeg);
+    }
+    20% {
+    }
+    30% {
+    }
+    33% {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(180, 20, 20, 0.5),
+          rgba(150, 150, 150, 0.5)
+        ),
+        url(css/images/toronto-night.jpg);
+    }
+    50% {
+      opacity: 50%;
+    }
+    60% {
+      opacity: 20%;
+    }
+    66% {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(180, 20, 20, 0.5),
+          rgba(150, 150, 150, 0.5)
+        ),
+        url(css/images/toronto-above.jpeg);
+    }
+    80% {
+      opacity: 50%;
+    }
+    90% {
+      opacity: 20%;
+    }
+  }
