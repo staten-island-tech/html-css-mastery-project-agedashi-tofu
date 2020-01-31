@@ -8,75 +8,73 @@ html {
 
 .header {
   height: 95vh;
+  background-image: url(img/toronto-above.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  -webkit-animation: changeBackground 10s ease-in infinite;
-          animation: changeBackground 10s ease-in infinite;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-@-webkit-keyframes changeBackground {
-  0%,
-  100% {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 20, 20, 0.5)), to(rgba(150, 150, 150, 0.5))), url(css/images/toronto-skyline.jpeg);
-    background-image: linear-gradient(to bottom, rgba(180, 20, 20, 0.5), rgba(150, 150, 150, 0.5)), url(css/images/toronto-skyline.jpeg);
-  }
-  20% {
-  }
-  30% {
-  }
-  33% {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 20, 20, 0.5)), to(rgba(150, 150, 150, 0.5))), url(css/images/toronto-night.jpg);
-    background-image: linear-gradient(to bottom, rgba(180, 20, 20, 0.5), rgba(150, 150, 150, 0.5)), url(css/images/toronto-night.jpg);
-  }
-  50% {
-    opacity: 50%;
-  }
-  60% {
-    opacity: 20%;
-  }
-  66% {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 20, 20, 0.5)), to(rgba(150, 150, 150, 0.5))), url(css/images/toronto-above.jpeg);
-    background-image: linear-gradient(to bottom, rgba(180, 20, 20, 0.5), rgba(150, 150, 150, 0.5)), url(css/images/toronto-above.jpeg);
-  }
-  80% {
-    opacity: 50%;
-  }
-  90% {
-    opacity: 20%;
-  }
+.textblock {
+  height: 40vh;
+  width: 70vh;
+  background-color: silver;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-@keyframes changeBackground {
-  0%,
-  100% {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 20, 20, 0.5)), to(rgba(150, 150, 150, 0.5))), url(css/images/toronto-skyline.jpeg);
-    background-image: linear-gradient(to bottom, rgba(180, 20, 20, 0.5), rgba(150, 150, 150, 0.5)), url(css/images/toronto-skyline.jpeg);
-  }
-  20% {
-  }
-  30% {
-  }
-  33% {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 20, 20, 0.5)), to(rgba(150, 150, 150, 0.5))), url(css/images/toronto-night.jpg);
-    background-image: linear-gradient(to bottom, rgba(180, 20, 20, 0.5), rgba(150, 150, 150, 0.5)), url(css/images/toronto-night.jpg);
-  }
-  50% {
-    opacity: 50%;
-  }
-  60% {
-    opacity: 20%;
-  }
-  66% {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 20, 20, 0.5)), to(rgba(150, 150, 150, 0.5))), url(css/images/toronto-above.jpeg);
-    background-image: linear-gradient(to bottom, rgba(180, 20, 20, 0.5), rgba(150, 150, 150, 0.5)), url(css/images/toronto-above.jpeg);
-  }
-  80% {
-    opacity: 50%;
-  }
-  90% {
-    opacity: 20%;
-  }
+.header1 {
+  height: 25vh;
+  width: 50vh;
+  background-color: slategray;
+}
+
+.headerprimary {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+.headersecondary {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2rem;
+  line-height: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.05rem;
 }
 /*# sourceMappingURL=style.css.map */
