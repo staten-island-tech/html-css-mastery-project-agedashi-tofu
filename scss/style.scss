@@ -1,4 +1,4 @@
-//@import "./variables";
+@import "./variables";
 @import "./header";
 
 html {
@@ -24,7 +24,7 @@ html {
 .textblock {
     height: 40vh;
     width: 70vh;
-    background-color: silver;
+    background-color: rgba($color: c4c4c4, $alpha: .4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ html {
 .header1{
     height: 25vh;
     width: 50vh;
-    background-color: slategray;
+    background-color: primary;
 }
 
 .headerprimary{
