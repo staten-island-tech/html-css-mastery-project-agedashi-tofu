@@ -4,6 +4,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 62.5%;
+  background-color: #ffffff;
 }
 
 .header {
@@ -13,22 +14,6 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 80vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.textblock {
-  height: 40vh;
-  width: 70vh;
-  background-color: silver;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,23 +26,28 @@ html {
 }
 
 .header1 {
-  height: 25vh;
-  width: 50vh;
-  background-color: slategray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40vh;
+  width: 80vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .headerprimary {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 6rem;
+  font-size: 15rem;
+  color: white;
   line-height: 6rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-align: center;
   letter-spacing: 0.2rem;
 }
@@ -68,13 +58,19 @@ html {
   font-weight: 200;
   font-size: 2rem;
   line-height: 6rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  color: white;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-align: center;
   letter-spacing: 0.05rem;
+}
+
+.history {
+  height: 95vh;
+  background-image: url(img/toronto-skyline.jpeg);
 }
 /*# sourceMappingURL=style.css.map */

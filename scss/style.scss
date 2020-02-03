@@ -6,6 +6,7 @@ html {
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: #ffffff;
 }
 
 .header {
@@ -15,37 +16,31 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.textblock {
-    height: 40vh;
-    width: 70vh;
-    background-color: rgba($color: c4c4c4, $alpha: .4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .header1{
-    height: 25vh;
-    width: 50vh;
-    background-color: primary;
+    display: flex;
+    height: 40vh;
+    width: 80vh;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .headerprimary{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 6rem;
+    font-size: 15rem;
+    color: white;
     line-height: 6rem;
     display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.2rem;
+    
 }
 
 .headersecondary{
@@ -54,10 +49,16 @@ html {
     font-weight: 200;
     font-size: 2rem;
     line-height: 6rem;
-    display: flex;
+    color: white;
     align-items: center;
+    display: flex;
     text-align: center;
     letter-spacing: 0.05rem;
+}
+
+.history{
+    height: 95vh;
+    background-image: url(img/toronto-skyline.jpeg);
 }
 
 //@keyframes changeBackground {
