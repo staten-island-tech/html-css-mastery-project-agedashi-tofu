@@ -9,65 +9,34 @@ html {
     background-color: #c0c0c0;
 }
 
-.header {
-    height: 80vh;
-    background-image: url(img/toronto-above.jpeg);
-    filter: grayscale(50%);
-    clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.header1{
-    display: flex;
-    height: 40vh;
-    width: 80vh;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.headerprimary{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15rem;
-    color: white;
-    line-height: 6rem;
-    display: flex;
-    text-align: center;
-    letter-spacing: 0.2rem;
-    
-}
-
-.headersecondary{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 4rem;
-    line-height: 6rem;
-    color: white;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    letter-spacing: 0.05rem;
-}
-
 .history{
-    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history1{
+    display: flex;
+    background-color: rgb(226, 226, 226);
+    width: 125vh;
+    height: 95vh;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    justify-content: center;
+    align-items: center;
+}
+
+.history2{
+    height: 90vh;
+    width: 120vh;
     background-image: url(img/toronto-skyline.jpeg);
     filter: grayscale(40%);
     position: relative;
     display: flex;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+
 }
 
 //@keyframes changeBackground {
