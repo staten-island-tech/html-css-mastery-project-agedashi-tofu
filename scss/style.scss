@@ -25,12 +25,21 @@ html {
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    justify-content: center;
+    flex: row-reverse;
 }
 
-.mayor-image{
+.mayorboy{
+
+    height:70vh;
+    width: 60vh;
+    display: flex;
+}
+
+.mayorimage{
     height: 60vh;
     display: flex;
-    background-image: url(img/mayor-john-tory.jpg);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 
 .story{}
