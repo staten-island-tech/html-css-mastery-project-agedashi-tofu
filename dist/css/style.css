@@ -43,6 +43,7 @@
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  font-size: 4rem;
 }
 
 .headerprimary {
@@ -100,7 +101,8 @@ html {
 .history2 {
   height: 150vh;
   width: 100%;
-  background-image: url(img/toronto-skyline.jpeg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e9e9e9), to(#ffffff00)), -webkit-gradient(linear, left top, left bottom, from(#ffffff00), to(#e9e9e9)), url(img/toronto-skyline.jpeg);
+  background-image: linear-gradient(top, #e9e9e9, #ffffff00), linear-gradient(180deg, #ffffff00, #e9e9e9), url(img/toronto-skyline.jpeg);
   -webkit-filter: grayscale(30%);
           filter: grayscale(30%);
   position: relative;
@@ -133,5 +135,30 @@ html {
   display: flex;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
           clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  margin: 3rem;
+  top: 2rem;
+  left: 1rem;
+}
+
+.story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 4rem;
+}
+
+.storyheader {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.header3 {
+  height: 70vh;
 }
 /*# sourceMappingURL=style.css.map */
