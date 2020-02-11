@@ -53,9 +53,15 @@ html {
 }
 .storyheader{
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
+    height: 6rem;
 }
-.historytext{}
+.historytext{
+    text-align: center;
+    font-size: 2rem;
+    flex-direction: row;
+    height: 6rem;
+}
 
 .quotes{}
 .quote1{}
