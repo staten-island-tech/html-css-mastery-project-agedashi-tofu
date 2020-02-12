@@ -10,6 +10,7 @@
 
 .header1 {
   height: 90vh;
+  width: 100vw;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff00), to(rgba(255, 255, 255, 0.699))), url(img/toronto-above.jpeg);
   background-image: linear-gradient(180deg, #ffffff00, rgba(255, 255, 255, 0.699)), url(img/toronto-above.jpeg);
   -webkit-filter: grayscale(50%);
@@ -46,7 +47,7 @@
 }
 
 .headerprimary {
-  font-family: "Roboto";
+  font-family: 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12rem;
@@ -60,7 +61,7 @@
 }
 
 .headersecondary {
-  font-family: "Roboto";
+  font-family: 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 4rem;
@@ -128,15 +129,13 @@ html {
 }
 
 .mayorimage {
-  height: 60vh;
+  height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
           clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  margin: 3rem;
-  top: 2rem;
-  left: 1rem;
+  margin-left: 12em;
 }
 
 .story {
@@ -149,7 +148,10 @@ html {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 4rem;
+  margin-top: 3em;
+  margin-right: -18rem;
+  height: 21vh;
+  width: 114vh;
 }
 
 .storyheader {
@@ -159,13 +161,12 @@ html {
 }
 
 .historytext {
-  text-align: center;
   font-size: 2rem;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 6rem;
+  height: 12rem;
 }
 
 .header3 {

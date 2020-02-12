@@ -6,9 +6,10 @@
 
 .header1 {
     height: 90vh;
+    width: 100vw;
     background-image: linear-gradient(180deg, #ffffff00, rgba(255, 255, 255, 0.699)), url(img/toronto-above.jpeg);
     filter: grayscale(50%);
-    clip-path: clip-path: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +30,7 @@
 }
 
 .headerprimary{
-    font-family: "Roboto" ;
+    font-family: 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 12rem;
@@ -42,7 +43,7 @@
 }
 
 .headersecondary{
-    font-family: "Roboto" ;
+    font-family: 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 4rem;

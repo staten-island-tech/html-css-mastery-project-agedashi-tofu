@@ -36,12 +36,9 @@ html {
 }
 
 .mayorimage{
-    height: 60vh;
+    height: 50vh;
     display: flex;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    margin: 3rem;
-    top: 2rem;
-    left: 1rem;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);margin-left: 12em;
 }
 
 
@@ -49,7 +46,10 @@ html {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 4rem;
+    margin-top: 3em;
+    margin-right: -18rem;
+    height: 21vh;
+    width: 114vh;
 }
 .storyheader{
     text-align: center;
@@ -57,10 +57,9 @@ html {
     height: 6rem;
 }
 .historytext{
-    text-align: center;
     font-size: 2rem;
     flex-direction: row;
-    height: 6rem;
+    height: 12rem;
 }
 
 .quotes{}
