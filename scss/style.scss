@@ -9,15 +9,9 @@ html {
     background-color: #e9e9e9;
 }
 
-.history{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.history2{
+.history{
     height: 150vh;
-    width: 100%;
     background-image: linear-gradient(top, #e9e9e9, #ffffff00), linear-gradient(180deg, #ffffff00, #e9e9e9), url(img/toronto-skyline.jpeg);
     filter: grayscale(30%);
     position: relative;
@@ -29,89 +23,10 @@ html {
     flex: row-reverse;
 }
 
-.mayorboy{
-    height:70vh;
-    width: 60vh;
-    display: flex;
-}
-
-.mayorimage{
-    height: 50vh;
-    display: flex;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);margin-left: 12em;
-}
 
 
-.story{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 3em;
-    margin-right: -18rem;
-    height: 21vh;
-    width: 114vh;
-}
-.storyheader{
-    text-align: center;
-    font-size: 6rem;
-    height: 6rem;
-}
-.historytext{
-    font-size: 2rem;
-    flex-direction: row;
-    height: 12rem;
-}
 
-.quotes{}
-.quote1{}
-.quote2{}
-.quote3{}
-.people{}
 
 .header3{
     height:70vh;
 }
-
-//@keyframes changeBackground {
-//    0%,
-//    100% {
-//      background-image: linear-gradient(
-//          to bottom,
-//          rgba(180, 20, 20, 0.5),
-//          rgba(150, 150, 150, 0.5)
-//        ),
-//        url(css/images/toronto-skyline.jpeg);
-//    }
-//    20% {
-//    }
-//    30% {
-//    }
-//    33% {
-//      background-image: linear-gradient(
-//          to bottom,
-//          rgba(180, 20, 20, 0.5),
-//          rgba(150, 150, 150, 0.5)
-//        ),
-//        url(css/images/toronto-night.jpg);
-//    }
-//    50% {
-//      opacity: 50%;
-//    }
-//    60% {
-//      opacity: 20%;
-//    }
-//    66% {
-//      background-image: linear-gradient(
-//          to bottom,
-//          rgba(180, 20, 20, 0.5),
-//          rgba(150, 150, 150, 0.5)
-//        ),
-//        url(css/images/toronto-above.jpeg);
-//    }
-//    80% {
-//      opacity: 50%;
-//    }
-//    90% {
-//      opacity: 20%;
-//    }
-//  }
