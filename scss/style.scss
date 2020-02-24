@@ -10,7 +10,7 @@ html {
 }
 
 
-.history{
+.about{
     height: 150vh;
     background-image: linear-gradient(top, #e9e9e9, #ffffff00), linear-gradient(180deg, #ffffff00, #e9e9e9), url(img/toronto-skyline.jpeg);
     filter: grayscale(30%);
@@ -19,13 +19,26 @@ html {
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    justify-content: center;
-    flex: row-reverse;
 }
 
+.about-toronto{
+    display: flex;
+    margin-left: 5%;
+    flex-direction: column;
+    width: 40vw;
+    margin-top: 5%;
+}
 
+.title{
+    display: flex;
+    font-size: 4rem;
+}
 
-
+.text{
+    display: flex;
+    font-size: 2rem;
+    margin-left: 5%;
+}
 
 .header3{
     height:70vh;
