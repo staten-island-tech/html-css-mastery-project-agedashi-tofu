@@ -28,6 +28,9 @@
     justify-content: center;
     flex-wrap: wrap;
     font-size: 4rem;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 .headerprimary{
@@ -38,21 +41,7 @@
     color: white;
     line-height: 14rem;
     display: flex;
-    text-align: center;
     letter-spacing: 0.2rem;
-}
-
-@keyframes slideUp{
-    0% {
-        opacity: 0;
-    }
-    1% {
-        opacity: 0;
-        transform: translate(0px,10rem);
-    }
-    100% {
-        opacity: 1;
-        transform: translate(0px,0px);
 }
 
 .headersecondary{
@@ -62,8 +51,6 @@
     font-size: 4rem;
     line-height: 6rem;
     color: white;
-    align-items: center;
     display: flex;
-    text-align: center;
     letter-spacing: 0.05rem;
 }
