@@ -12,8 +12,8 @@
     <div class="header">
         <div class="header1">
                 <div class="header2">
-                    <span class="headerprimary">TORONTO</span>
-                    <span class="headersecondary">The greatest city in leafland</span>
+                    <span class="headerprimary">Toronto</span>
+                    <span class="headersecondary">A city of beauty and opportunity</span>
                 </div>
         </div>
     </div>
@@ -21,11 +21,55 @@
     <div class="about">
         <div class="about-toronto">
             <span class="title">What's so special about Toronto?</span>
-            <div class="text">  Being one of the biggest metropolitan cities in the world, Canada is home to a diversity of subcultures and activities. Our city is bustling with people, pubs, and opportunity.</div>
+            <div class="text">
+                <section class="p1">One of the largest metropolitan cities in the world, Toronto offers a multitude of activities and attractions, from its countless museums to its many green parks. The highly iconic CN Tower graces its skyline, and in combination with its natural aesthetics such as Lake Ontario, Toronto is one of the most unique and beautiful cities in the world.</section>
+                <section class="p2">One of the largest metropolitan cities in the world, Toronto offers a multitude of activities and attractions, from its countless museums to its many green parks. The highly iconic CN Tower graces its skyline, and in combination with its natural aesthetics such as Lake Ontario, Toronto is one of the most unique and beautiful cities in the world.</section>
+                <section class="p3">One of the largest metropolitan cities in the world, Toronto offers a multitude of activities and attractions, from its countless museums to its many green parks. The highly iconic CN Tower graces its skyline, and in combination with its natural aesthetics such as Lake Ontario, Toronto is one of the most unique and beautiful cities in the world.</section>
+                <section class="p4">One of the largest metropolitan cities in the world, Toronto offers a multitude of activities and attractions, from its countless museums to its many green parks. The highly iconic CN Tower graces its skyline, and in combination with its natural aesthetics such as Lake Ontario, Toronto is one of the most unique and beautiful cities in the world.</section>
+                <section class="p5">One of the largest metropolitan cities in the world, Toronto offers a multitude of activities and attractions, from its countless museums to its many green parks. The highly iconic CN Tower graces its skyline, and in combination with its natural aesthetics such as Lake Ontario, Toronto is one of the most unique and beautiful cities in the world.</section>
+                <section class="p6">One of the largest metropolitan cities in the world, Toronto offers a multitude of activities and attractions, from its countless museums to its many green parks. The highly iconic CN Tower graces its skyline, and in combination with its natural aesthetics such as Lake Ontario, Toronto is one of the most unique and beautiful cities in the world.</section>
+            </div>
+        </div>
+        <div class="gallery">
+            <img class="image-bar" src="css/img/bars.jpeg" alt="">
+            <img class="image-lake" src="css/img/lake-ontario.jpeg" alt="">
+            <img class="image-caesar" src="css/img/caesar.jpeg" alt="">
         </div>
     </div>
 
-    <div class="header3"></div>
+    <div class="header3">
+        <div class="slideshow">
+            <div class="slideshow-title">Many Places to Visit!</div>
+            <div class="slideshow-gallery">
+                <img class="mySlides" src="css/img/cn-tower-2.jpeg" style="width:75%">
+                <img class="mySlides" src="css/img/parks.jpeg" style="width:75%">
+                <img class="mySlides" src="css/img/stadium.jpeg" style="width:75%">
+                <img class="mySlides" src="css/img/toronto chinatown.jpg" style="width:75%">
+
+                <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+            </div>
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+                
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  x[slideIndex-1].style.display = "block";  
+                }
+            </script>
+        </div>
+    </div>
 
 </body>
 
