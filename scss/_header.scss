@@ -1,57 +1,66 @@
-.header{
-    display: flex;
-    height:110vh;
-    justify-content: center;
+.header {
+  display: flex;
+  height: 110vh;
+  justify-content: center;
 }
 
 .header1 {
-    height: 100vh;
-    width: 100vw;
-    background-image: linear-gradient(180deg, #ffffff00, rgb(88, 50, 71)), url(img/toronto-night.jpg);
-    filter: grayscale(50%);
-    clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(180deg, #ffffff00, rgb(88, 50, 71)),
+    url(img/toronto-night.jpg);
+  filter: grayscale(50%);
+  clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
-
-.header2{
-    display: flex;
-    height: 40vh;
-    width: 80vh;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-size: 4rem;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    text-transform: uppercase;
-    color: white;
-    text-shadow: 2px 2px rgb(56, 56, 56);
+.header2 {
+  display: flex;
+  height: 40vh;
+  width: 80vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 2px rgb(56, 56, 56);
 }
 
-.headerprimary{
-    font-family: 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: bold;
+.headerprimary {
+  font-family: "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 14rem;
+  display: flex;
+  letter-spacing: 0.2rem;
+  @include phone {
+    font-size: 6rem;
+  }
+  @include desktop {
     font-size: 12rem;
-    line-height: 14rem;
-    display: flex;
-    letter-spacing: 0.2rem;
+  }
 }
 
-.headersecondary{
-    font-family: 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 4rem;
-    line-height: 6rem;
-    display: flex;
-    letter-spacing: 0.05rem;
+.headersecondary {
+  font-family: "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 6rem;
+  display: flex;
+  letter-spacing: 0.05rem;
+  @include phone {
+    font-size: 2rem;
+  }
+  @include desktop {
+      font-size: 4rem;
+  }
 }
