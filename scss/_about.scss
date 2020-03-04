@@ -59,17 +59,20 @@
 
 .gallery{
     display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    width: 80%;
     flex-wrap: nowrap;
     padding: 5rem;
     margin-top: 3%;
 }
 
-.image-bar{
+
+.image-lake{
     max-height: 40rem;
 }
-.image-lake{
+.image-bar{
     max-height: 40rem;
 }
 .image-caesar{

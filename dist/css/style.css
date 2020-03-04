@@ -198,6 +198,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -205,17 +208,18 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 80%;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   padding: 5rem;
   margin-top: 3%;
 }
 
-.image-bar {
+.image-lake {
   max-height: 40rem;
 }
 
-.image-lake {
+.image-bar {
   max-height: 40rem;
 }
 
