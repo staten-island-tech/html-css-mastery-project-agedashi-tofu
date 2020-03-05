@@ -61,7 +61,7 @@
 }
 
 .headerprimary {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   line-height: 14rem;
@@ -217,14 +217,41 @@
 
 .image-lake {
   max-height: 40rem;
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
 }
 
 .image-bar {
   max-height: 40rem;
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
 }
 
 .image-caesar {
   max-height: 40rem;
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
+}
+
+.image-lake:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.image-bar:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.image-caesar:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .header3 {
@@ -354,5 +381,26 @@ html {
 
 .n-falls {
   height: 50rem;
+}
+
+.casa-loma:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.ROM:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.n-falls:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 /*# sourceMappingURL=style.css.map */

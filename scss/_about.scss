@@ -71,10 +71,32 @@
 
 .image-lake{
     max-height: 40rem;
+    filter: grayscale(100);
 }
 .image-bar{
     max-height: 40rem;
+    filter: grayscale(100);
 }
 .image-caesar{
     max-height: 40rem;
+    filter: grayscale(100);
 }
+
+.image-lake:hover{
+    transform: scale(1.2);
+    transition: .3s ease-in-out;
+}
+
+
+.image-bar:hover{
+    transform: scale(1.2);
+    transition: .3s ease-in-out;
+}
+
+
+.image-caesar:hover{
+    transform: scale(1.2);
+    transition: .3s ease-in-out;
+}
+
+
