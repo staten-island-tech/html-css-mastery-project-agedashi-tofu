@@ -1,6 +1,6 @@
 .header3{
     height:120vh;
-    background-image: linear-gradient(top, #242424, #ffffff00), linear-gradient(180deg, #ffffff00, #242424), url(img/toronto-above.jpeg);
+    background-image: linear-gradient(top, color(dark), #ffffff00), linear-gradient(180deg, #ffffff00, color(dark)), url(img/toronto-above.jpeg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -14,13 +14,13 @@
 }
 
 .slideshow-title{
+    margin-top: 5%;
     display: flex;
-    font-family: 'Helvetica Neue', sans-serif;
-    color: rgb(24, 24, 24);
+    font-family: 'Josefin Sans', sans-serif;
+    color: color(secondary);
     font-size: 10rem;
     text-align: center;
     justify-content: center;
-    color: white;
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase;

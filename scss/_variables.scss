@@ -1,9 +1,9 @@
 $colors: (
-  primary: #45a29e,
-  primary-light: #66fcf1,
-  grey: #c5c6c7,
-  primary-dark: #1f2833,
-  black: #0b0c10
+  primary: #e7c34e,
+  primary-light: #e6c877,
+  primary-dark: #8d7636,
+  secondary: #f3e9d3,
+  dark: #181818
 );
 
 $phone: 400px;
@@ -16,7 +16,7 @@ $desktop: 1100px;
 }
 
 @mixin phone {
-  @media (min-width: #{$desktop}) {
+  @media (min-width: #{$phone}) {
     @content;
   }
 }

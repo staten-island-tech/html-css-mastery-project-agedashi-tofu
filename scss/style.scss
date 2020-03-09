@@ -10,13 +10,13 @@ html {
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-    background-color: #242424;
+    background-color: color(dark);
 }
 
 .header4{
     display: flex;
     height: 90vh;
-    background-image: linear-gradient(top, #242424, #ffffff00), linear-gradient(180deg, #ffffff00, #242424), url(img/shore.jpeg);
+    background-image: linear-gradient(top, color(dark), #ffffff00), linear-gradient(180deg, #ffffff00, color(dark)), url(img/shore.jpeg);
     align-items: center;
     justify-content: center;
 }
