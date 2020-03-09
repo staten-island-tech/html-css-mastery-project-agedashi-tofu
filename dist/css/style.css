@@ -204,6 +204,7 @@
           flex-direction: column;
   font-style: normal;
   text-shadow: 2px 2px #181818;
+  text-align: center;
 }
 
 @media (min-width: 400px) {
@@ -279,7 +280,7 @@
 
 @media (min-width: 1100px) {
   .image-lake {
-    max-height: 40rem;
+    max-height: 30rem;
     -webkit-filter: grayscale(100);
             filter: grayscale(100);
     border: 3px solid #8d7636;
@@ -302,7 +303,7 @@
 
 @media (min-width: 1100px) {
   .image-bar {
-    max-height: 40rem;
+    max-height: 30rem;
     -webkit-filter: grayscale(100);
             filter: grayscale(100);
     border: 3px solid #8d7636;
@@ -325,7 +326,7 @@
 
 @media (min-width: 1100px) {
   .image-caesar {
-    max-height: 40rem;
+    max-height: 30rem;
     -webkit-filter: grayscale(100);
             filter: grayscale(100);
     border: 3px solid #8d7636;
@@ -421,24 +422,22 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-shadow: inset 0px -3px 7px 0px #55656e;
-          box-shadow: inset 0px -3px 7px 0px #55656e;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #55656e), to(#55656e));
-  background: linear-gradient(to bottom, #55656e 5%, #55656e 100%);
-  background-color: #55656e;
-  text-shadow: 0px 1px 8px #adadad;
+  -webkit-box-shadow: inset 0px -3px 7px 0px #f3e9d3;
+          box-shadow: inset 0px -3px 7px 0px #f3e9d3;
+  border: 2px solid #e0bc57a6;
+  background-color: #f3e9d3;
+  text-shadow: 0px 1px 8px #181818;
 }
 
 .display-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-shadow: inset 0px -3px 7px 0px #55656e;
-          box-shadow: inset 0px -3px 7px 0px #55656e;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #55656e), to(#55656e));
-  background: linear-gradient(to bottom, #55656e 5%, #55656e 100%);
-  background-color: #55656e;
-  text-shadow: 0px 1px 8px #adadad;
+  -webkit-box-shadow: inset 0px -3px 7px 0px #8d7636;
+          box-shadow: inset 0px -3px 7px 0px #8d7636;
+  border: 2px solid #e0bc57a6;
+  background-color: #f3e9d3;
+  text-shadow: 0px 1px 8px #181818;
 }
 
 html {

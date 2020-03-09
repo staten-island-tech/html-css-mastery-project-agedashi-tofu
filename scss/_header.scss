@@ -51,6 +51,11 @@
   text-shadow: 2px 2px color(dark);
 }
 
+//@keyframes TitleAnimation {
+ // 0%   {top:300px;}
+ // 100% {top:0px;}
+//}
+
 .headerprimary {
   font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
@@ -58,6 +63,8 @@
   line-height: 14rem;
   display: flex;
   letter-spacing: 0.2rem;
+ // animation-name: TitleAnimation;
+ // animation-duration: 4s;
   @include phone {
     font-size: 6rem;
   }
@@ -65,6 +72,8 @@
     font-size: 12rem;
   }
 }
+
+
 
 .headersecondary {
   font-family: 'Josefin Sans', sans-serif;

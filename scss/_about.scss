@@ -46,6 +46,7 @@
     flex-direction: column;
     font-style: normal;
     text-shadow: 2px 2px color(dark);
+    text-align: center;
     @include phone {
         font-size: 1.5rem;
       }
@@ -86,7 +87,7 @@
         outline: 4px solid color(primary);
     }
     @include desktop{
-        max-height: 40rem;
+        max-height: 30rem;
         filter: grayscale(100);
         border: 3px solid color(primary-dark);
         outline: 6px solid color(primary);
@@ -102,7 +103,7 @@
         outline: 4px solid color(primary);
     }
     @include desktop {
-        max-height: 40rem;
+        max-height: 30rem;
         filter: grayscale(100);
         border: 3px solid color(primary-dark);
         outline: 6px solid color(primary);
@@ -117,7 +118,7 @@
         outline: 4px solid color(primary);
     }
     @include desktop {
-        max-height: 40rem;
+        max-height: 30rem;
         filter: grayscale(100);
         border: 3px solid color(primary-dark);
         outline: 6px solid color(primary);
