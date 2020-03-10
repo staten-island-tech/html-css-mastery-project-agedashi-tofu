@@ -8,6 +8,7 @@
   display:flex;
   background-color: color(primary-dark);
   height:101vh;
+  width: 100vw;
   justify-content: center;
   clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
 }
@@ -16,6 +17,7 @@
   display:flex;
   background-color: color(primary);
   height:100.5vh;
+  width: 100vw;
   justify-content: center;
   clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
 }

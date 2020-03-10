@@ -14,6 +14,7 @@
   display: flex;
   background-color: #8d7636;
   height: 101vh;
+  width: 100vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -27,6 +28,7 @@
   display: flex;
   background-color: #e7c34e;
   height: 100.5vh;
+  width: 100vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -453,7 +455,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 90vh;
+  height: 100vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#181818), to(#ffffff00)), -webkit-gradient(linear, left top, left bottom, from(#ffffff00), to(#181818)), url(img/shore.jpeg);
   background-image: linear-gradient(top, #181818, #ffffff00), linear-gradient(180deg, #ffffff00, #181818), url(img/shore.jpeg);
   -webkit-box-align: center;
@@ -464,54 +466,93 @@ html {
           justify-content: center;
 }
 
-.gallery2 {
+.section4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 70vh;
   width: 90%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gallery2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10%;
+  height: 75vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.casa-loma {
-  height: 50rem;
+.gigachad1 {
+  height: 20rem;
+  border-radius: 100%;
+  border: 3px solid #e7c34e;
 }
 
-.ROM {
-  height: 50rem;
+.gigachad2 {
+  height: 20rem;
+  border-radius: 100%;
+  border: 3px solid #e7c34e;
 }
 
-.n-falls {
-  height: 50rem;
+.gigachad3 {
+  height: 20rem;
+  border-radius: 100%;
+  border: 3px solid #e7c34e;
 }
 
-.casa-loma:hover {
+.gigachad1:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
 
-.ROM:hover {
+.gigachad2:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
 
-.n-falls:hover {
+.gigachad3:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
+}
+
+.quotebox {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  height: 82vh;
+  width: 50vw;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #f3e9d3;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 3rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 /*# sourceMappingURL=style.css.map */

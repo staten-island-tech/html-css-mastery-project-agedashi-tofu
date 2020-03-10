@@ -15,46 +15,70 @@ html {
 
 .header4{
     display: flex;
-    height: 90vh;
+    height: 100vh;
     background-image: linear-gradient(top, color(dark), #ffffff00), linear-gradient(180deg, #ffffff00, color(dark)), url(img/shore.jpeg);
     align-items: center;
     justify-content: center;
 }
 
+.section4{
+    display: flex;
+    width:90%;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .gallery2{
     display: flex;
-    height: 70vh;
-    width: 90%;
-    flex-direction: row;
-    align-items: center;
+    margin-top: 10%;
+    height: 75vh;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
-.casa-loma{
-    height:50rem;
+.gigachad1{
+    height:20rem;
+    border-radius: 100%;
+    border: 3px solid color(primary);
 }
-.ROM{
-    height: 50rem;
+.gigachad2{
+    height: 20rem;
+    border-radius: 100%;
+    border: 3px solid color(primary);
 }
-.n-falls{
-    height:50rem;
+.gigachad3{
+    height:20rem;
+    border-radius: 100%;
+    border: 3px solid color(primary);
 }
 
-.casa-loma:hover{
+.gigachad1:hover{
     transform: scale(1.2);
     transition: .3s ease-in-out;
 }
 
 
-.ROM:hover{
+.gigachad2:hover{
     transform: scale(1.2);
     transition: .3s ease-in-out;
 }
 
 
-.n-falls:hover{
+.gigachad3:hover{
     transform: scale(1.2);
     transition: .3s ease-in-out;
 }
 
+.quotebox{
+    margin-top: 10%;
+    display:flex;
+    text-align: center;
+    height: 82vh;
+    width: 50vw;
+    font-family: 'Josefin Sans', sans-serif;
+    color: color(secondary);
+    flex-direction: column;
+    font-size: 3rem;
+    justify-content: space-around;
+}
