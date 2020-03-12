@@ -148,16 +148,18 @@
   background-position: top;
   background-repeat: no-repeat;
   position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-toronto {
-  background-color: rgba(26, 26, 26, 0.212);
+  background-color: rgba(26, 26, 26, 0.61);
   font-family: 'Josefin Sans', sans-serif;
   color: #f3e9d3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 5%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -385,7 +387,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 5%;
+  padding: 5%;
+  margin: 5%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -399,7 +402,6 @@
   display: flex;
   font-family: 'Josefin Sans', sans-serif;
   color: #f3e9d3;
-  font-size: 10rem;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -408,6 +410,18 @@
   font-weight: bold;
   text-transform: uppercase;
   text-shadow: 2px 2px #383838;
+}
+
+@media (min-width: 400px) {
+  .slideshow-title {
+    font-size: 8rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .slideshow-title {
+    font-size: 10rem;
+  }
 }
 
 .slideshow-gallery {
@@ -440,15 +454,6 @@
   border: 2px solid #e0bc57a6;
   background-color: #f3e9d3;
   text-shadow: 0px 1px 8px #181818;
-}
-
-html {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-size: 62.5%;
-  background-color: #181818;
 }
 
 .header4 {
@@ -499,21 +504,54 @@ html {
 }
 
 .gigachad1 {
-  height: 20rem;
   border-radius: 100%;
   border: 3px solid #e7c34e;
+}
+
+@media (min-width: 400px) {
+  .gigachad1 {
+    height: 15rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .gigachad1 {
+    height: 20rem;
+  }
 }
 
 .gigachad2 {
-  height: 20rem;
   border-radius: 100%;
   border: 3px solid #e7c34e;
 }
 
+@media (min-width: 400px) {
+  .gigachad2 {
+    height: 15rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .gigachad2 {
+    height: 20rem;
+  }
+}
+
 .gigachad3 {
-  height: 20rem;
   border-radius: 100%;
   border: 3px solid #e7c34e;
+}
+
+@media (min-width: 400px) {
+  .gigachad3 {
+    height: 15rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .gigachad3 {
+    height: 20rem;
+  }
 }
 
 .gigachad1:hover {
@@ -551,8 +589,36 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 3rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+@media (min-width: 400px) {
+  .quotebox {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .quotebox {
+    font-size: 3rem;
+  }
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: #181818;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40vh;
+  background-color: #181818;
 }
 /*# sourceMappingURL=style.css.map */

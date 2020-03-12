@@ -9,8 +9,10 @@
 .slideshow{
     display:flex;
     justify-content: center;
-    margin-top: 5%;
+    padding: 5%;
+    margin: 5%;
     flex-direction: column;
+    
 }
 
 .slideshow-title{
@@ -18,13 +20,18 @@
     display: flex;
     font-family: 'Josefin Sans', sans-serif;
     color: color(secondary);
-    font-size: 10rem;
     text-align: center;
     justify-content: center;
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: 2px 2px rgb(56, 56, 56);
+    @include phone{
+        font-size: 8rem;
+    }
+    @include desktop{
+        font-size: 10rem;
+    }
 }
 
 .slideshow-gallery{
